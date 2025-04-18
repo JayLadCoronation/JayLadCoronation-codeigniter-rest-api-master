@@ -31,11 +31,11 @@ function validateToken($headers) {
 
 function send_sms($mobile ="", $message ="") {
         
-    //$sid = "ACb5b0dc8ddc34682d99f9f06004594cd6";
-    //$token = "5a7139088a47643cc1c35b601333eccb";
-    //$twilio_number = "+18457047893";
+    $sid = "ACb5b0dc8ddc34682d99f9f06004594cd6";
+    $token = "5a7139088a47643cc1c35b601333eccb";
+    $twilio_number = "+18457047893";
 
-   // $url = "https://api.twilio.com/2010-04-01/Accounts/$sid/Messages.json";
+    $url = "https://api.twilio.com/2010-04-01/Accounts/$sid/Messages.json";
     
     $data = [
         "To" => "+91".$mobile,
