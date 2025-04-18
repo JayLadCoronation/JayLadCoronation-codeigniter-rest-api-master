@@ -31,9 +31,10 @@ function validateToken($headers) {
 
 function send_sms($mobile ="", $message ="") {
         
-    $sid = "XXXXXXXXXXX";
-    $token = "XXXXXXXXXXX";
-    $twilio_number = "+XXXXXXXXXXX";
+
+    $sid = "XXXXXXXXXXXXXX";
+    $token = "XXXXXXXXXXXXXX";
+    $twilio_number = "+XXXXXXXXXXXXXX";
 
     $url = "https://api.twilio.com/2010-04-01/Accounts/$sid/Messages.json";
     
